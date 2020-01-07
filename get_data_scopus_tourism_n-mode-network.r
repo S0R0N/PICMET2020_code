@@ -480,8 +480,4 @@ Analysis.g.eg <- cbind(Analysis.g.eg.edgelist,Analysis.g.eg.type)
 colnames(Analysis.g.eg) <- c("Source","Target","Type")
 
 write.csv(Analysis.g.eg,file=paste0("multimode-network/EOP.csv"),row.names=FALSE)
-
-
-
- 
 # 
